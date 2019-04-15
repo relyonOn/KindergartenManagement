@@ -1,0 +1,259 @@
+body{
+    font-family: "iconfont";
+    padding: 0;
+}
+.stuInfor_content{
+    background: #F2F8F9;
+    padding-top: 20px;
+    height: 570px;
+}
+@font-face {
+    font-family: "iconfont";
+    src: url('../font/iconfont.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+.bjgl_ul{
+    list-style: none;
+}
+.bjgl_ul>li{
+    float: left;
+}
+.bjgl_ul>li>li{
+    float: left;
+}
+.bjgl_ul:after{
+    visibility: hidden;
+    content: "";
+    display: block;
+    clear: both;
+}
+#bjgl_ul_li>a{
+
+    color: white;
+    background: #5bc0dee8;
+    border: none;
+    border-radius: 5px;
+    padding:5px 15px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 5px;
+}
+#bjgl_ul_li_1>a{
+
+    color: white;
+    background: #5bc0dee8;
+    border: none;
+    border-radius: 5px;
+    padding:5px 15px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 5px;
+}
+.bjgl_ul_li1>a{
+
+    color: white;
+    background: rgba(91, 192, 222, 0.58);
+    border: none;
+    border-radius: 5px;
+    padding:5px 15px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 5px;
+    /*box-shadow: 3px 3px 5px #a7a4a4;*/
+    text-decoration: none;
+}
+.bjgl_ul_li1>a:hover{
+    background: #5bc0de;
+}
+#bjgl_cz{
+    list-style: none;
+}
+#bjgl_cz:after{
+    visibility: hidden;
+    content: "";
+    display: block;
+    clear: both;
+}
+#bjgl_cz>li>a{
+    float: left;
+    padding:5px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.bjgl_table{
+    text-align: center;
+ }
+#bjgl_gdcz{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+th{
+    text-align: center;
+}
+#bjgl_btn{
+    background:  #61CBDB;
+    color: white;
+    padding: 5px 15px;
+    margin-left: 68%;
+}
+#bjgl_btn_2{
+    background:  #61CBDB;
+    color: white;
+    padding: 5px 15px;
+    margin-left: 68%;
+}
+#bjgl_btn_1{
+  background:  #61CBDB;
+  color: white;
+  padding: 5px 15px;
+  margin-left: 71%;
+}
+.stuInfor_moreActions{
+    background-color: #61CBDB !important;
+    color: white !important;
+}
+.stu_lookBtn{
+    background:  #00CE68;
+    color: white;
+    float: left;
+}
+.tdOperation{
+    width: 200px;
+    text-align: center;
+}
+.tdOperation button{
+    padding: 0px 10px
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-menu{
+    min-width: 100%;
+    text-align: center;
+    background-color: #61CBDB;
+    border-color: #61CBDB ;
+    color: white ;
+    padding: 0px 0;
+    margin: 1px 0 0;
+}
+.dropdown-menu > li > a:hover{
+    background-color: #15acc36e ;
+    border-color: #61CBDB ;
+    color: white;
+}
+.dropdown-menu > li > a{
+    color: white;
+    border-bottom: 1px solid;
+}
+.stu_lookBtn{
+    background:  #00CE68;
+    color: white !important;
+    margin-left: 20px;
+}
+.stu_lookBtn:hover{
+    background-color: #00CE68 !important;
+    border-color: #00CE68 !important;
+}
+.stuInfor_searchBar{
+    text-align: center;
+    margin: 20px 0;
+}
+#stuInfor_selectClass{
+    padding: 9px;
+    vertical-align: top;
+    cursor: pointer;
+    width: 10%;
+}
+.stuInfor_inputText{
+    width: 32%;
+    padding: 6px 10px;
+    margin: 0 10px;
+    outline: none;
+}
+.stuInfor_search{
+    background:  #00CE68;
+}
+#stuInfor_selectClass{
+    padding: 8px;
+    vertical-align: top;
+    outline: none;
+    cursor: pointer;
+    height: 36px;
+    width: 10%;
+}
+
+#bjgl_label_1{
+    margin-left: 8.5%;
+}
+#bjgl_label2_1{
+    margin-left: 8%;
+}
+#bjgl_label{
+    margin-left: 8.5%;
+}
+#bjgl_label2{
+    margin-left: 8%;
+}
+.tjdiv_1{
+   margin: 5% 0;
+}
+.tjdiv_2{
+  margin: 50px 0;
+  padding: 0;
+}
+
+.label_2{
+
+}
+.bjgl_h4{
+    margin-left: 5px;
+}
+
+#bjgl_a_1{
+    background-color: #3db8e4;
+    padding:10px 30px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    margin: 25px 0;
+    text-decoration: none;
+}
+#bjgl_a_1>span{
+    border: 1px solid white;
+    margin-right: 5px;
+}
+.bjgl_xianshi{
+  height: 245px;
+}
+
+/*#bjgl_qx{*/
+  /*background:  #dd514c;*/
+  /*color: white;*/
+/*}*/
+.bjgl_qx:hover{
+  background-color: #dd514c;
+  color: white;
+}
+.cjgl_ck{
+  margin-bottom: 15px;
+}
+.depart_person{
+  padding: 0;
+  margin:2% 0;
+  margin-left: 5%;
+}
+.modal-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.modal-backdrop.in {
+    filter: alpha(opacity=0) !important;
+    opacity: 0 !important;
+}
+button{
+    outline: none;!important;
+}

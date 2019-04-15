@@ -1,0 +1,213 @@
+/* 公共部分 */
+body{
+    margin: 0;
+    padding: 0;
+}
+ul,p,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+* ,*:before,*:after{
+    box-sizing: border-box;;
+}
+input,button{
+    outline: none !important;
+}
+/*浮动*/
+.float{
+    float: left;
+}
+/* 清除浮动 */
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+/* 内容区域 */
+.teaInfor_content{
+    background: #F2F8F9;
+    padding-top: 50px;
+    height: 570px;
+}
+.teaInfor_searchBar{
+    text-align: center;
+    margin: 20px 0;
+}
+#tInfor_selectClass{
+    padding: 8px;
+    vertical-align: top;
+    outline: none;
+    cursor: pointer;
+    width: 10%;
+}
+.teaInfor_inputText{
+    width: 32%;
+    padding: 6px 10px;
+    margin: 0 10px;
+}
+.btn-success{
+    outline: none !important;
+}
+.teaInfor_search{
+    background:  #00CE68;
+}
+.teaInfor_delateAdd{
+    margin-bottom: 14px;
+    text-align: left;
+}
+.teaInfo_delateBtn{
+    background: #dd514c;
+}
+.teacher_mytable{
+    height: 245px;
+}
+thead>tr>th,.teacher_mytable{
+    text-align: center;
+}
+.tdentIdTh{
+    width: 12%;
+}
+.tInfor_tNumber{
+    text-align: right;
+    line-height: 50px;
+}
+.open > .dropdown-menu{
+    min-width: 100% !important;
+    text-align: center;
+}
+.btn-success:hover,
+.teaInfo_addBtn,
+.open > .dropdown-toggle.btn-default ,
+.open > .dropdown-toggle.btn-default:focus{
+    background-color: #00CE68 !important;
+    border-color: #00CE68 !important;
+    color: white !important;
+}
+.open > .dropdown-menu,
+.tInfor_moreActions,
+.btn-default:hover,
+.btn-default:active,
+.open > .dropdown-toggle.btn-default,
+.open > .dropdown-toggle.btn-default:focus{
+    background-color: #61CBDB !important;
+    border-color: #61CBDB !important;
+    color: white !important;
+}
+.dropdown-menu > li > a:hover{
+    background-color: #15acc36e !important;
+    border-color: #61CBDB !important;
+    color: white;
+}
+.dropdown-menu{
+    padding: 0px 0;
+    margin: 1px 0 0;
+}
+.dropdown-menu > li > a{
+    color: white;
+    border-bottom: 1px solid;
+}
+.btn-default:active:hover{
+    color: white !important;
+}
+.dropdown{
+    display: inline-block;
+}
+#tInfor_pageNum{
+    display: inline-block;
+}
+.tInfor_pageNumCounts{
+    text-align: right;
+}
+.row{
+    margin: 0px;
+}
+.tdOperation{
+    width: 200px;
+}
+.tdOperation button{
+    padding: 0px 10px !important;
+}
+.tInfor_pages{
+    margin: 15px 0px;
+}
+.btn:focus{
+    color: white !important;
+}
+.btn-success:active{
+    background-color: none !important; 
+    border-color: none !important;
+}
+.tInfor_btnComm{
+    color: white;
+    background: #5bc0de;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 3px 3px 5px #a7a4a4;
+}
+.pageNumClick_y{
+    background: #5bc0de8a;
+    color: white;
+    border: none;
+    margin: 0 5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    box-shadow: 1px 1px 5px #888888;
+}
+.pageActive{
+    background: #5bc0dee8;
+}
+/* 添加教师*/
+.tInfor_addt{
+    margin-bottom: 15px;
+
+}
+.tInfor_addT_inputCom{
+    width: 140px;
+    outline: none;
+}
+.teaInfor_addTea_col{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 16% !important;
+    margin-right: 0px!important;
+    float: left;
+}
+.tInfor_addT_btn{
+    text-align: center;
+}
+.tInfor_delateAllT_tittle{
+    border-bottom: none !important;
+}
+.tInfor_delateAllt_btn{
+    text-align: center;
+    border-top: none;
+}
+.tea{
+    color: red;
+    font-size: 20px;
+    vertical-align: middle;
+}
+#tInfor_addT_tab{
+    font-weight: bold;
+}
+#tInfor_delateAllT_tab{
+    text-align: center;
+}
+.tInfor_dropOut{
+    border: none !important;
+}
+.modal-backdrop.fade {
+     filter: alpha(opacity=0);
+     opacity: 0;
+ }
+.modal-backdrop.in {
+    filter: alpha(opacity=0) !important;
+    opacity: 0 !important;
+}

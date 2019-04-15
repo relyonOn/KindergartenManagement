@@ -1,0 +1,39 @@
+﻿/*www.jq22.com*/
+.calendar { POSITION: absolute; WIDTH:190px; HEIGHT: 180px; PADDING:0;DISPLAY: none; FLOAT: left;border:1px solid #819dba;background:#fff;}
+.calendar .calMain { WIDTH:100%; HEIGHT:180px; FLOAT: left; OVERFLOW: hidden; POSITION: absolute; }
+.calendar .calMain .calTitle { WIDTH: 100%; FLOAT: left; HEIGHT: 23px; BACKGROUND: #fff; OVERFLOW: hidden; }
+.calendar .calMain .calTitle .t_date { WIDTH: 149px; FLOAT: left; HEIGHT: 23px; COLOR: #51729D; FONT-WEIGHT: bold; LINE-HEIGHT: 23px; TEXT-ALIGN: center; }
+.calendar .calMain .calTitle .prevMonth { WIDTH: 15px; HEIGHT: 15px; FLOAT: left; MARGIN: 8px 0 0 5px; CURSOR: pointer; BACKGROUND: url(../images/date_bg.png) no-repeat 5px -87px; }
+.calendar .calMain .calTitle .nextMonth { WIDTH: 15px; HEIGHT: 15px; FLOAT: right; MARGIN: 8px 5px 0 0; CURSOR: pointer; BACKGROUND: url(../images/date_bg.png) no-repeat 6px -157px; }
+.calendar .calMain .calTitle .currentYear { }
+.calendar .calMain .calTitle .currentMonth { }
+.calendar .calMain .calTitle .currentYearText { FLOAT: left; MARGIN: 0 0px 0 39px; CURSOR: pointer; }
+.calendar .calMain .calTitle .currentMonthText { FLOAT: left; CURSOR: pointer; WIDTH: 30px; TEXT-ALIGN: right; }
+.calendar .calMain .calContent { WIDTH: 378px; HEIGHT: 157px; FLOAT: left; }
+.calendar .calMain .calContent .enabled { POSITION: absolute; WIDTH: 100%; HEIGHT: 157px; FLOAT: left; }
+.calendar .calMain .calContent .reserve { POSITION: absolute; WIDTH:100%; HEIGHT: 157px; FLOAT: left; }
+.calendar .calMain .calContent .tabD { WIDTH: 100%; FLOAT: left; BORDER-COLLAPSE: collapse; BORDER-SPACING: 0; BORDER: 0; }
+.calendar .calMain .calContent .tabD th { BACKGROUND: url(../images/date_bg.png) repeat-x; LINE-HEIGHT: 22px; FONT-WEIGHT: normal; PADDING-BOTTOM: 4px; COLOR: #fff; }
+.calendar .calMain .calContent .tabD td { COLOR: #1F3959; TEXT-ALIGN: center; LINE-HEIGHT: 19px; WIDTH: 27px; FONT-FAMILY: "Georgia"; }
+.calendar .calMain .calContent .tabD td span { COLOR: #C0C0C0; }
+.calendar .calMain .calContent .tabD td a { WIDTH: 23px; LINE-HEIGHT: 18px; FLOAT: left; MARGIN: 1px 0 0 2px; CURSOR: pointer; COLOR: #51729D; }
+.calendar .calMain .calContent .tabD td .nextD { COLOR: #BCCADC; }
+.calendar .calMain .calContent .tabD td .prevD { COLOR: #BCCADC; }
+.calendar .calMain .calContent .tabD td .hover { WIDTH: 21px; LINE-HEIGHT: 16px; BORDER: 1px solid #7D99BD; FLOAT: left; MARGIN: 1px 0 0 2px; }
+.calendar .calMain .calContent .tabD td .current { WIDTH: 21px; LINE-HEIGHT: 16px; BORDER: 1px solid #51729D; FLOAT: left; MARGIN: 1px 0 0 2px; }
+.calendar .calMain .calContent .tabD td .select { WIDTH: 21px; LINE-HEIGHT: 16px; BACKGROUND: #51729D; BORDER: 1px solid #51729D; COLOR: #fff; FLOAT: left; MARGIN: 1px 0 0 2px; }
+.calendar .calMain .calContent .tabM { WIDTH: 100%; FLOAT: left; BORDER-COLLAPSE: collapse; BORDER-SPACING: 0; BORDER: 0; }
+.calendar .calMain .calContent .tabM td { COLOR: #1F3959; TEXT-ALIGN: center; HEIGHT: 50px; WIDTH: 47px; FONT-FAMILY: "Georgia"; }
+.calendar .calMain .calContent .tabM td a { WIDTH: 42px; LINE-HEIGHT: 42px; FLOAT: left; MARGIN: 0px 0 0 2px; CURSOR: pointer; COLOR: #51729D; }
+.calendar .calMain .calContent .tabM td .hover { WIDTH: 40px; LINE-HEIGHT: 40px; BORDER: 1px solid #7D99BD; FLOAT: left; MARGIN: 0px 0 0 2px; }
+.calendar .calMain .calContent .tabM td .current { WIDTH: 40px; LINE-HEIGHT: 40px; BORDER: 1px solid #51729D; FLOAT: left; MARGIN: 0px 0 0 2px; }
+.calendar .calMain .calContent .tabM td .select { WIDTH: 40px; LINE-HEIGHT: 40px; BACKGROUND: #51729D; BORDER: 1px solid #51729D; COLOR: #fff; FLOAT: left; MARGIN: 0px 0 0 2px; }
+.calendar .calMain .calContent .tabY { WIDTH: 100%; FLOAT: left; BORDER-COLLAPSE: collapse; BORDER-SPACING: 0; BORDER: 0; }
+.calendar .calMain .calContent .tabY td { COLOR: #1F3959; TEXT-ALIGN: center; HEIGHT: 50px; WIDTH: 47px; FONT-FAMILY: "Georgia"; }
+.calendar .calMain .calContent .tabY td a { WIDTH: 42px; LINE-HEIGHT: 42px; FLOAT: left; MARGIN: 0px 0 0 2px; CURSOR: pointer; COLOR: #51729D; }
+.calendar .calMain .calContent .tabY td .nextY { COLOR: #BCCADC; }
+.calendar .calMain .calContent .tabY td .prevY { COLOR: #BCCADC; }
+.calendar .calMain .calContent .tabY td .hover { WIDTH: 40px; LINE-HEIGHT: 40px; BORDER: 1px solid #7D99BD; FLOAT: left; MARGIN: 0px 0 0 2px; }
+.calendar .calMain .calContent .tabY td .current { WIDTH: 40px; LINE-HEIGHT: 40px; BORDER: 1px solid #51729D; FLOAT: left; MARGIN: 0px 0 0 2px; }
+.calendar .calMain .calContent .tabY td .select { WIDTH: 40px; LINE-HEIGHT: 40px; BACKGROUND: #51729D; BORDER: 1px solid #51729D; COLOR: #fff; FLOAT: left; MARGIN: 0px 0 0 2px; }
+.calendar .calMain a:hover { TEXT-DECORATION: none; }

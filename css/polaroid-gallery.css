@@ -1,0 +1,85 @@
+body {
+    /*background-color: #F2EBE2;*/
+    background-image: url("../images/cjl/222.jpg");
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    width: 200px;
+    position: absolute;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.cjl_tiaozuan{
+    height: 50px;
+    width: 100px;
+    float: right;
+    right: 20px;
+    top: 20px;
+    position: absolute;
+    z-index: 999;
+    border-radius: 10px;
+    border: 2px solid #20a1ff;
+    cursor: pointer;
+    color: #fff
+}
+.cjl_tiaozuan:hover{
+    background-color: #20a1ff;
+    color: #fff;
+}
+
+
+
+figure img {
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+figure figcaption {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    color: #8F8476;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 999;
+}
+
+.button {
+    background-color: transparent;
+    padding: 10px 24px;
+    color: #ffffff;
+    border: 2px solid #20a1ff;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    transition: 0.4s;
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #20a1ff;
+    color: white;
+}

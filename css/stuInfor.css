@@ -1,0 +1,310 @@
+/* 公共部分 */
+body{
+    margin: 0;
+    padding: 0;
+}
+ul,p,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+* ,*:before,*:after{
+    box-sizing: border-box;;
+}
+input,button{
+    outline: none !important;
+}
+/*浮动*/
+.float{
+    float: left;
+}
+/* 清除浮动 */
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+/* 内容区域 */
+.modal-backdrop.fade {   
+    filter: alpha(opacity=0);   
+    opacity: 0; 
+}
+.modal-backdrop.in {   
+    filter: alpha(opacity=0) !important;   
+    opacity: 0 !important; 
+}
+.stuInfor_content{
+    background: #F2F8F9;
+    padding-top: 50px;
+    height: 570px;
+}
+.stuInfor_searchBar{
+    text-align: center;
+    margin: 20px 0;
+}
+#stuInfor_selectClass{
+    padding: 8px;
+    vertical-align: top;
+    outline: none;
+    cursor: pointer;
+    width: 10%;
+}
+.stuInfor_inputText{
+    width: 20%;
+    padding: 6px 10px;
+    margin:0 0 0 10px
+}
+.searchStu{
+    background-color: #00CE68;
+    padding: 10px;
+    color: white;
+    margin-left: -5px;
+}
+.btn-success{
+    outline: none !important;
+}
+.stuInfor_search{
+    background:  #00CE68;
+}
+.stuInfor_delateAdd{
+    margin-bottom: 14px;
+    text-align: left;
+}
+.stuInfo_delateBtn{
+    background: #dd514c;
+}
+.stuInfor_table{
+    height: 245px;
+}
+thead>tr>th,.stuInfor_table{
+    text-align: center;
+}
+.studentIdTh{
+    width: 12%;
+}
+.stuInfor_stuNumber{
+    text-align: right;
+    line-height: 50px;
+}
+.open > .dropdown-menu{
+    min-width: 100% !important;
+    text-align: center;
+}
+.btn-success:hover,
+.stu_lookBtn:hover,
+.stuInfo_addBtn,
+.open > .dropdown-toggle.btn-default ,
+.open > .dropdown-toggle.btn-default:focus{
+    background-color: #00CE68 !important;
+    border-color: #00CE68 !important;
+    color: white !important;
+}
+.open > .dropdown-menu,
+.stuInfor_moreActions,
+.btn-default:hover,
+.btn-default:active,
+.open > .dropdown-toggle.btn-default,
+.open > .dropdown-toggle.btn-default:focus{
+    background-color: #61CBDB !important;
+    border-color: #61CBDB !important;
+    color: white !important;
+}
+.dropdown-menu > li > a:hover{
+    background-color: #15acc36e !important;
+    border-color: #61CBDB !important;
+    color: white;
+}
+.dropdown-menu{
+    padding: 0px 0;
+    margin: 1px 0 0;
+}
+.dropdown-menu > li > a{
+    color: white;
+    border-bottom: 1px solid;
+}
+.btn-default:active:hover{
+    color: white !important;
+}
+.dropdown{
+    display: inline-block;
+}
+#stuInfor_pageNum{
+    display: inline-block;
+}
+.stuInfor_pageNumCounts{
+    text-align: right;
+}
+.row{
+    margin: 0px;
+}
+.tdOperation{
+    width: 200px;
+}
+.tdOperation button{
+    padding: 0px 10px !important;
+}
+.stuInfor_pages{
+    margin: 15px 0px;
+}
+.stu_lookBtn{
+    background:  #00CE68;
+    color: white;
+}
+.btn:focus{
+    color: white !important;
+}
+.btn-success:active{
+    background-color: none !important; 
+    border-color: none !important;
+}
+.stuInfor_btnComm{
+    color: white;
+    background: #5bc0de;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 3px 3px 5px #a7a4a4;
+}
+.stuInfor_pageNumClick{
+    background: #5bc0de8a;
+    color: white;
+    border: none;
+    margin: 0 5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    box-shadow: 1px 1px 5px #888888;
+}
+.stuInfor_pageActive{
+    background: #5bc0dee8;
+}
+/* 添加学生*/
+.stuInfor_addStu{
+    margin-bottom: 15px;
+}
+.stuInfor_addStu_inputCom{
+    width: 90%;
+    outline: none;
+}
+.stuInfor_addStu_inputSelectCom{
+    height: 26px;
+}
+.stuInfor_addStu_col{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 16% !important;
+    padding: 3px 0px;
+}
+.stuInfor_addStu_btn{
+    text-align: center;
+}
+.stuInfor_delateAllStu_tittle{
+    border-bottom: none !important;
+}
+.stuInfor_delateAllStu_btn{
+    text-align: center;
+    border-top: none;
+}
+.stuInfor_addStu_xing{
+    color: red;
+    font-size: 20px;
+    vertical-align: middle;
+}
+#stuInfor_addStu_tab{
+    font-weight: bold;
+}
+#stuInfor_delateAllStu_tab{
+    text-align: center;
+}
+.stuInfor_dropOut{
+    border: none !important;
+}
+/* 转班处理 */
+.stuInfor_changeClass_modif{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.stuInfor_changeClass_modif h4{
+    font-weight: bold;
+}
+.stuInfor_changeClass_modif select{
+    outline: none;
+    height: 30px;
+    width: 40%;
+}
+.stuInfor_changeClass_btnAll{
+    text-align: center;
+    padding-bottom: 0px;
+    border-top: none !important;
+}
+/* 查看学生详细信息 */
+.stuInfor_view_headPortrait{
+    width: 50%;
+    margin: auto;
+}
+.stuInfor_view_headPortraitImg{
+    width: 84%;
+    height: 118px;
+    display: inline-block;
+    margin: 0 22px;
+}
+.stuInfor_ViewDetails_tittle h4{
+    text-align: center;
+    font-weight: bold;
+}
+.stuInfor_ViewDetails_content{
+    padding: 15px 0px 0px 0px !important;
+}
+.stuInfor_infoComm{
+    padding: 0 0 15px 0px !important;
+}
+.stuInfor_infoComm2{
+    padding-left: 0 !important;
+    padding: 3px 0;
+}
+.stuInfor_addStu_inputCo2{
+    width: 93%;
+    margin-left: 2px;
+}
+.stuInfor_view_headPortrait_col{
+    width: 50% !important;
+    /* position: relative; */
+}
+#chooseImage{
+    /* position: absolute;
+    bottom: 0px;
+    left: 0px; */
+}
+.stuInfor_addStu_col2{
+    padding-left: 20px !important;
+}
+.stuInfor_infoInputComm{
+    padding-left: 0px !important;
+}
+.stuInfor_add_headPortraitImg{
+    cursor: pointer;
+}
+.stuInfor_addStu_inputCo3{
+    outline: none;
+    padding: 3px 0;
+}
+#export{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #00CE68;
+    color: white !important;
+    width: 20%;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#exportTable{
+    display: none;
+}

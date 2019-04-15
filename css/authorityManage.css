@@ -1,0 +1,39 @@
+/* 公共部分 */
+body{
+    margin: 0;
+    padding: 0;
+}
+ul,p,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+* ,*:before,*:after{
+    box-sizing: border-box;;
+}
+input,button{
+    outline: none !important;
+}
+/*浮动*/
+.float{
+    float: left;
+}
+/* 清除浮动 */
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+.stuInfor_addStu_col2Add{
+    text-align: center;
+}
+.searchStu{
+    padding: 10px 15px 10px 10px !important;
+}
+.stuInfor_infoComm{
+    padding: 0 0 20px 0px !important;
+}

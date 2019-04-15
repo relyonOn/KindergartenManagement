@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../lib/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <style>
+        @import url(../css/styleTwo.css);
+    </style>
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <script src="../js/data_wz.js"></script>
+    <script>
+        var this_id = JSON.parse(sessionStorage.getItem("id"));//获取当前登录老师id
+    console.log(this_id)
+
+    </script>
+</head>
+<body>
+    <header class="container-fluid" id="contain">
+        <div class="main_nav">
+            <img src="../images/main_images/true.jpg" alt="">
+            <div class="main_nav_logo">
+                萌宝幼儿园
+            </div>
+            <div class="main_nav_top">
+                <img src="" alt="">
+                <p></p>
+                <p></p>
+                <p><span class="iconfont icon-gerenzhongxin"></span>
+                    <span id="personal">
+                        个人信息
+                    </span>
+                </p>
+            </div>
+            <ul id="main_nav_boot" >
+                <li>
+                    <a href="main.html" target="kindergarten" id="myMain_lxy"><span class="iconfont icon-shouye"></span> <span>主页</span></a>
+                </li>
+                <li>
+                    <a href="javascript:;" target="kindergarten"><span class="iconfont icon-shujuguanli"></span><span>用户数据管理</span><span class="iconfont icon-right"></span></a>
+                    <ul id="main_nav_boot_two">
+                    </ul>
+                </li>
+                <li>
+                    <a href="" class="powerMAIN" target="kindergarten" > <span class="iconfont icon-quanxian"></span><span>权限管理</span></a>
+                </li>
+                <li>
+
+                    <a href="Photozhan_cjl.html" target="kindergarten" >  <span class="iconfont icon-chakanzhaopian"></span><span>照片墙</span></a>
+                </li>
+                <li>
+
+                    <a href="duty_index.html" target="kindergarten"> <span class="iconfont icon-kaoqin"></span><span>考勤管理</span></a>
+                </li>
+                <li>
+                    <a href="notice_index.html" target="kindergarten"><span class="iconfont icon-notice"></span> <span>公告管理</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="main_content">
+            <div class="main_content_top">
+                <div class="main_top_left">
+                    <p><i class="iconfont icon-inquiry-list-follow-on"></i></p>
+                    <input type="text" value="请输入搜索内容">
+                    <span class="iconfont icon-icon09"></span>
+                </div>
+                <div class="main_top_middle"></div>
+                <div class="main_top_right">
+                    <div class="main_mail">
+                        <span class="iconfont icon-xinfeng" id="Email"></span>
+                        <p>5</p>
+                        <div class="main_mail_content">
+                           <div class="main_mail_content_top">
+                               <p>你有五封未读邮件 </p>
+                               <p>查看全部</p>
+                           </div>
+                            <ul>
+                                <li>
+                                    <img src="../images/main_images/face2.jpg" alt="">
+                                    <p>毛亮 <span>1分钟前</span></p>
+                                    <p>今晚值班</p>
+                                </li>
+                                <li>
+                                    <img src="../images/main_images/face3.jpg" alt="" >
+                                    <p>刘德华 <span>10分钟前</span></p>
+                                    <p>今晚开演唱会</p>
+                                </li>
+                                <li>
+                                    <img src="../images/main_images/face4.jpg" alt="" >
+                                    <p>赖老师<span>20分钟前</span></p>
+                                    <p>今晚开演唱会</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_news">
+                        <span class="iconfont icon-xiaoxi" id="news"></span>
+                        <p>7</p>
+                        <div class="main_news_content">
+                            <div class="main_news_content_top">
+                                <p>你有五条未读消息 </p>
+                                <p>查看全部</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <img src="../images/main_images/face2.jpg" alt="">
+                                    <p>毛亮 <span>1分钟前</span></p>
+                                    <p>今晚值班,加强巡逻</p>
+                                </li>
+
+                                <li>
+                                    <img src="../images/main_images/face3.jpg" alt="" >
+                                    <p>刘德华 <span>10分钟前</span></p>
+                                    <p>今晚开演唱会</p>
+                                </li>
+                                <li>
+                                    <img src="../images/main_images/face4.jpg" alt="" >
+                                    <p>赖老师<span>20分钟前</span></p>
+                                    <p>今晚开演唱会</p>
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_login">
+                        <p></p><!--获取时间的标签-->
+                        <div class="main_login_Img">
+                            <span>注销</span>
+                            <span class="iconfont icon-iconfontmall01"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul id="main_content_break">
+                <li><a href="main.html" target="kindergarten"><span class="iconfont icon-shouye"></span><span>主页</span></a></li>
+            </ul>
+        </div>
+        <iframe src="main.html" frameborder="0" name="kindergarten" id="main_Iframe"></iframe>
+    </header>
+    <script src="../js/DATE_index.js"></script>
+    <script src="../lib/bootstrap-3.3.5-dist/js/jquery-1.11.3.js"></script>
+    <script src="../lib/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+
+            //console.log(sessionStorage.setItem("teacher[i].teacherId",JSON.stringify(myMAIn_PARSE)))
+            var main_onclick=0;
+            var main_nav=0;
+            var timer=null;
+            //退出
+            $(".main_login_Img").on("click",function () {
+                window.location.href="../denglu.html";
+            })
+            //收缩侧边栏
+            $(".main_top_left>p").on("click",function () {
+                main_onclick++;
+                var my_parents=$(this).parents(".main_content");
+                let my_main_a=$("#main_nav_boot>li>a").outerHeight();
+                if(main_onclick%2){
+                    my_parents.prev().css({width:"4%"});
+                    $("#personal").css({display:"none"});
+                    $(".main_nav_top>p:nth-child(2)").css({opacity:0});
+                    $(".main_nav_top>p:nth-child(3)").css({opacity:0});
+                    //$("#main_nav_boot>li>a>span:nth-child(2)").css({display:"none",opacity:0});
+                    my_parents.next().css({width:"96%"})
+                    my_parents.css({width:"96%"})
+                    $("#main_nav_boot_two>li>a>span:nth-child(2)").css({display:"none"})
+                    $("#main_nav_boot>li").css({height:my_main_a+"px"})
+                }else{
+                    my_parents.prev().css({width:"16%"});
+                    $("#personal").css({display:"block"});
+                    $(".main_nav_top>p:nth-child(2)").css({opacity:1});
+                    $(".main_nav_top>p:nth-child(3)").css({opacity:1});
+                    //$("#main_nav_boot>li>a>span:nth-child(2)").css({display:"block",opacity:1});
+                    my_parents.next().css({width:"84%"});
+                    my_parents.css({width:"84%"});
+                    $("#main_nav_boot_two>li>a>span:nth-child(2)").css({display:"block"})
+                }
+            });
+            //鼠标滑入侧边栏自动撑开
+            $(".main_nav").mouseover(function () {
+                $(this).css({width:"16%"});
+                $("#personal").css({display:"block"});
+                $(".main_nav_top>p:nth-child(2)").css({opacity:1});
+                $(".main_nav_top>p:nth-child(3)").css({opacity:1});
+                //$("#main_nav_boot>li>a>span:nth-child(2)").css({display:"block",opacity:1});
+                $(this).next().css({width:"84%"});
+                $(this).next().next().css({width:"84%"});
+                $("#main_nav_boot_two>li>a>span:nth-child(2)").css({display:"block"})
+                main_onclick=0;
+            });
+            //权限设置
+            for(let b=0;b<teacher.length;b++){
+                if(teacher[b].teacherId==this_id){
+                    $(".powerMAIN").on("click",function () {
+                        alert("你的权限等级不够")
+                    })
+                    $(".powerMAIN").attr({href:"javascript:;"})
+                    sessionStorage.setItem("Duty_Name",JSON.stringify(teacher[b].teacherName));
+                    $(".main_nav_top>img:nth-child(1)").attr({src:teacher[b].photo})
+                    $(".main_nav_top>p:nth-child(2)").append(teacher[b].teacherName)
+                    $(".main_nav_top>p:nth-child(3)").append(teacher[b].job)
+                    console.log(teacher[b].teacherId)
+                    $("#main_nav_boot_two").append(`
+                    <li><a href="erjieduan.html" target="kindergarten"><span class="iconfont icon-bianji"></span><span>班级管理</span></a></li>
+                    <li><a href="stuInfor.html" target="kindergarten"><span class="iconfont icon-bianji"></span><span>学生管理</span></a></li>
+                    `)
+                }
+            }
+            for(let a=0;a<admin.length;a++){
+                if(admin[a].username==this_id){
+                    console.log(1)
+                    $(".powerMAIN").attr({href:"authorityManage.html"})
+                    sessionStorage.setItem("Duty_Name",JSON.stringify(admin[a].adminName));
+                    $(".main_nav_top>img:nth-child(1)").attr({src:admin[a].photo})
+                    $(".main_nav_top>p:nth-child(2)").append(admin[a].adminName)
+                    $(".main_nav_top>p:nth-child(3)").append(admin[a].job)
+                    $("#main_nav_boot_two").append(`
+                    <li><a href="departInfo.html" target="kindergarten"><span class="iconfont icon-bianji"></span><span>部门管理</span></a></li>
+                    <li><a href="teacher.html" target="kindergarten"><span class="iconfont icon-bianji"></span><span>职工管理</span></a></li>
+                    <li><a href="erjieduan.html" target="kindergarten"><span class="iconfont icon-bianji"></span><span>班级管理</span></a></li>
+                    <li><a href="stuInfor.html" target="kindergarten"><span class="iconfont icon-bianji"></span><span>学生管理</span></a></li>
+                    `)
+
+
+                }
+            }
+
+            //子菜单获得面包屑
+            $("#main_nav_boot>li").click(function () {
+                let myMain_break=$(this).children("a").html();
+                let myMain_href=$(this).children("a").attr("href");
+                let myMain_Icon=$(this).children("span")[0];
+               for(let i=0;i<$("#main_content_break>li").length;i++){
+                   $("#main_content_break").empty();
+               }
+                $("#main_content_break").append(`<li> <a href='${myMain_href}' target="kindergarten">${myMain_break}</a></li>`)
+                $("#main_content_break>li>a>span:nth-child(3)").remove();
+            });
+            //2级子菜单的面包屑获取
+            $("#main_nav_boot_two>li").on("click",function () {
+                let myMain_break=$(this).html();
+                let dayu=">";
+
+                //console.log(myMain_break)
+                //let myMain_href=$(this).children("a").attr("href");
+                //let myMain_Icon=$(this).children("span")[0]
+                let myMIan_break_li=$("#main_content_break").children("li");
+                if(myMIan_break_li.length==3){
+                    myMIan_break_li[1].remove();
+                    myMIan_break_li[2].remove();
+                }
+                $("#main_content_break").append(`
+                <li>${dayu}</li>
+                <li>${myMain_break}</li>
+                `);
+                var oEvent = arguments.callee.caller.arguments[0] || window.event;
+                oEvent.stopPropagation();
+
+            })
+
+            //下拉子菜单
+            $("#main_nav_boot>li:nth-child(2)>a").on("click",function () {
+                var my_main_Li_height=$(this).outerHeight();
+                if($(this).parent().height()==my_main_Li_height){
+                    $("#main_nav_boot>li>a>span:nth-child(3)").css({transform:"rotate(90deg)"})
+                }else{
+                    $("#main_nav_boot>li>a>span:nth-child(3)").css({transform:"rotate(0)"})
+                }
+            })
+            $("#main_nav_boot>li>a").on("click",function () {
+                var index=$(this).next().children().length;
+                var my_main_Li_height=$(this).outerHeight();
+                var main_height=(index+1)*my_main_Li_height+"px";
+                if($(this).parent().height()==my_main_Li_height){
+                    $(this).parent().css({height:main_height}).siblings().css({height:my_main_Li_height+"px"});
+                }else{
+                    $(this).parent().css({height:my_main_Li_height+"px"})
+                }
+
+            });
+            //获取可见区域的高度
+            $("header").css({height:document.documentElement.clientHeight});
+            $(".main_nav>img:nth-child(1)").css({height:document.documentElement.clientHeight})
+            var main_bodyHight=document.documentElement.clientHeight-80+"px";
+            //获取iframe 的高度
+            $("#main_Iframe").css({height:main_bodyHight});
+            //点击邮件
+            $("#Email").click(function () {
+                if(parseInt($(".main_mail_content").css("height"))==0){
+                    $(".main_mail_content").css({height:"200px"});
+                    $(".main_news_content").css({height:0});
+                    // 阻止事件冒泡
+                    return false
+                }else{
+                    $(".main_mail_content").css({height:0});
+                    // 阻止事件冒泡
+                    return false
+                }
+            });
+            //点击其他地方让弹出栏缩回
+            $("body").click(function () {
+                $(".main_mail_content").css({height:0});
+            })
+            $("iframe").on("load", function(event){//判断 iframe是否加载完成  这一步很重要
+                $("body",this.contentDocument).click(function(){//添加点击事件
+                    $(".main_mail_content").css({height:0});
+                });
+            });
+            //点击消息
+            $("#news").click(function () {
+                if(parseInt($(".main_news_content").css("height"))==0){
+                    $(".main_news_content").css({height:"200px"});
+                    $(".main_mail_content").css({height:0});
+                    // 阻止事件冒泡
+                     return false
+                }else{
+                    $(".main_news_content").css({height:0});
+                    // 阻止事件冒泡
+                    return false
+                }
+            });
+            //点击其他地方让弹出栏缩回
+            $("body").click(function () {
+                $(".main_news_content").css({height:0});
+            })
+            $("iframe").on("load", function(event){//判断 iframe是否加载完成  这一步很重要
+                $("body",this.contentDocument).click(function(){//添加点击事件
+                    $(".main_news_content").css({height:0});
+                });
+            });
+            //点击消息
+            //获取时间
+            //var timestamp=new Date().getTime();
+            $(".main_login>p").html(`${(new Date()).toLocaleDateString() + " " + (new Date()).toLocaleTimeString()}`)
+            timer=setInterval(function () {
+                $(".main_login>p").html(`${(new Date()).toLocaleDateString() + " " + (new Date()).toLocaleTimeString()}`)
+            },1000)
+        })
+    </script>
+</body>
+</html>

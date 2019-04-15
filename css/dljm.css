@@ -1,0 +1,104 @@
+body{
+  background-color: deepskyblue;
+  font-family: "iconfont";
+}
+@font-face {
+  font-family: "iconfont";
+  src: url("../font/iconfont.ttf");
+}
+#dljm_div{
+  background: url("../images/loginImages/TIM图片20181219143112.png") no-repeat;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  padding: 0;
+
+  text-align: center;
+
+  z-index: 999;
+  margin-top: 2%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+  /*background-color: #3db8e4;*/
+}
+.dljm_wk{
+  margin-top: 7%;
+}
+.dljm_img{
+  z-index: 999;
+  margin-top: 10%;
+}
+
+#dljm_div>p:nth-child(1){
+  font-size: 50px;
+  /*margin-top: 40%;*/
+  color: red;
+  margin-top: 40%;
+}
+#dljm_div>p:nth-child(2){
+  font-size: 30px;
+}
+.logbin{
+  padding: 1%;
+  font-size: 15px;
+}
+.logbin>input{
+  display: block;
+  float: left;
+  margin-left: 10%;
+}
+.logbin>p{
+   text-align: right;
+   margin-right: 10%;
+   cursor: pointer;
+   color: #3db8e4;
+ }
+.logbin>span{
+  display: block;
+  float: left;
+}
+#dljm_lable,
+#dljm_lable_2{
+  width: 80%;
+
+  padding-left: 2%;
+}
+#dljm_zh{
+  font-size: 16px;
+}
+#dljm_mm{
+  font-size: 16px;
+  margin-top: 5%;
+}
+
+#dljm_dl{
+  width: 80%;
+  color: white;
+  font-size: 20px;
+  background-color: #3db8e4;
+}
+.logbin_three{
+  margin-top: 4%;
+  font-size: 16px;
+}
+
+.logbin_three>p:nth-child(2){
+  margin-top: 3%;
+}
+.logbin_three_dl{
+ text-align: center;
+}
+.logbin_three_dl>p:nth-child(1)>span{
+  font-size: 68px;
+  margin-right: 10px;
+  color: #3db8e4;
+}
+.logbin_three_dl>p:nth-child(2)>span{
+  font-size: 68px;
+  margin-right: 10px;
+  color: rgba(0, 128, 0, 0.77);
+}
+.logbin{
+  margin-top: 3%;
+}
